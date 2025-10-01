@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maafin Zaky 🥲</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <audio id="background-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung elemen audio.
+    </audio>
+
+    <div class="container">
+        <div id="cover">
+            <h1>Untuk Sayangku, Ananda Asli Sufid</h1>
+            <p>Maafin Akuu yaaa :(</p>
+            <button id="open-letter-btn">Buka Suratnya</button>
+        </div>
+
+        <div id="letter" class="hidden">
+            <h2 class="fade-in">Untuk Nandaku Cantik Yang Paling Kusayang</h2>
+            
+            <p class="fade-in">
+                Aku menulis surat ini dengan semua perasaan tulus dari hati aku yang paling dalam. Pertama-tama, aku mau bilang: maafin Zakyy yaaa:(.
+                 Aku tahu kata maaf mungkin nggak cukup untuk memperbaiki semuanya, tapi inilah yang paling jujur bisa aku ucapkan.
+            </p>
+
+            <p class="fade-in">
+                Aku minta maaf sudah kasar sama kamu dua hari lalu, aku maksa kamu berhenti ikut organisasi menari itu, tapi kamu tetap tidak bisa karena sudah janji sama diri kamu dan juga sama temen kamu. 
+                Aku juga minta maaf karena tiba-tiba bahas masa lalu, bahas tentang keluarga kamu, cerita tentang masalah keluarga kamu yang harusnya belum mau kamu ceritakan, aku malah paksain kamu. Maafin yaaa :( 
+            </p>
+
+            <p class="fade-in">
+                Pokoknya aku minta maaf banget sama kamu karena udah marah-marah tidak jelas 2 hari lalu itu, padahal kamu lagi pengen di hibur, di dengerin curhatnya, di hibur.
+                Aku malah marah-marah karena hal gak jelas, aku baru sadar waktu pagi itu. Aku merasa kasar sekali, kata-kata yang tidak terkontrol bahkan sampai kecewa sama diriku sendiri karena kata-kata aku sendiri yang mengakibatkan aku sampai tidak berani menghubungi kamu.
+            </p>
+
+            <p class="fade-in">
+                Nggak ada alasan untuk membenarkan apa yang aku lakukan. Aku sadar betul aku sudah salah dan sudah membuatmu kecewa dan sedih.
+                Setiap detik tanpamu rasanya berat banget. Aku kangen kamu, suara kamu, wajah kamu dan semua hal kecil yang biasa kita lalui bersama walaupun hanya sebatas chat dan telpon. Kehadiranmu itu lebih berarti dari apa pun, dan aku sangat menyesal sudah menyia-nyiakannya dengan kebodohanku.
+            </p>
+            
+            <p class="fade-in">
+                Aku nggak minta kamu untuk langsung memaafkan aku sekarang juga. Aku tahu ini pure kesalahanku, semua karena ego ku. Jadi aku pantas untuk dimarahi atau dibenci. Aku cuman bisa bilang minta maaf ke kamuu, i'm really sorry my Sweetheart ❤️
+            </p>
+
+            <p class="fade-in">
+                Aku sayang banget sama kamu, lebih dari yang bisa aku tuliskan di sini.
+            </p>
+
+            <div class="signature fade-in">
+                <p>Dengan segenap cinta dan penyesalan,</p>
+                <p class="name">Zaky Fachriansyah</p>
+            </div>
+            
+            <div id="heart-trigger" class="heart-container fade-in">
+                <div class="heart"></div>
+                <p style="font-size: 0.8em; color: #c2185b; margin-top: 50px; cursor: pointer;">(Klik hatinya...)</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-overlay" class="hidden">
+        <div class="modal-content">
+            
+            <div id="modal-initial-content">
+                <h3>Foto-Foto Cantik Kamu 😍</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="./image/img1.jpg" alt="Foto Cantik 1">
+                        <span class="caption">Comeel bangeeet yak kita berdua 🥰</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/img2.jpg" alt="Foto Cantik 2">
+                        <span class="caption">omgg su cutee 😍😍😍</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/img3.png" alt="Foto Cantik 3">
+                        <span class="caption">Lutcuuuuuu 🥰🥰🥰</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/img4.png" alt="Foto Cantik 4">
+                        <span class="caption">Cantiik bangeet 😍</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/img5.jpg" alt="Foto Cantik 5">
+                        <span class="caption">Comeel bangeet kamu disini sayang 🥰</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/img6.jpg" alt="Foto Cantik 6">
+                        <span class="caption">OMG, berasaa aku di tatapin 😗</span>
+                    </div>
+                </div>
+                <p>Kamu mau 'kan maafin aku? 🥲</p>
+                <div class="modal-buttons">
+                    <button id="btn-maafin">Maafin yaaa ❤️</button>
+                    <button id="btn-gak-maafin">Nggak Maafin 😜</button>
+                </div>
+            </div>
+
+            <div id="thank-you-message" class="hidden">
+                <h2>Makasih banyak, sayang!</h2>
+                <p>Aku janji nggak akan pernah ngulangin kesalahan yang sama lagi. Aku janji bakal jadi lebih baik buat kamu dan buat kita. Kamu adalah segalanya buat aku.</p>
+                <p>Aku sayang banget sama kamu!</p>
+                <button id="btn-tutup-modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
